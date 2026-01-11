@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+}
+
+.card {
+    display: flex;
+    background: linear-gradient(rgb(96, 174, 229), rgba(255, 255, 255, 0.666),rgba(96, 174, 229, 0.495));
+    width: 90%;
+    max-width: 470px;
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 40px 20px;
+    color: #fff;
+    flex-direction: column;
+    border-radius: 20px;
+    border: transparent inset;
+
+
+}
+
+.search-box {
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 0px 20px;
+
+
+}
+.degree{
+    font-c: ;
+    font-weight: bolder;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.search-btn {
+    border-radius: 50%;
+    cursor: pointer;
+    width: 30px;
+    
+
+}
+
+.search-btn>img {
+
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+
+}
+
+.weather {
+    width: 100%;
+
+}
+
+.weather>img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.weather-type {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.humadity>img {
+    width: 60px;
+    height: 60px;
+}
+
+.wind>img {
+    width: 60px;
+    height: 60px;
+}
+
+.humadity {
+    display: flex;
+}
+
+.wind {
+    display: flex;
+}
+
+.level {
+    display: block;
+    text-align: start;
+}
